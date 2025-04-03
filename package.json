@@ -1,0 +1,32 @@
+{
+  "name": "blackout",
+  "displayName": "Blackout",
+  "description": "Work in blackout until success",
+  "version": "0.0.1",
+  "publisher": "AriaNaderi",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#34394D",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AriaNaderidev/Blackout-vsCode-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blackout",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blackout-color-theme.json"
+      }
+    ]
+  }
+}
